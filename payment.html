@@ -1,0 +1,70 @@
+<html>
+<head>
+<h1 align="center"> PAYMENT</h1>
+<style>
+    .link
+          {  border-radius:10px;
+             color:rgb(20, 53, 80);
+             }
+    .link:hover
+            {background-color: rgb(238, 13, 107);
+            }
+    }
+</style>
+<script>
+    function confirm()
+    {   if(  document.getElementsByName('order')!=null  )
+              {  alert(" you have successfully  placed your order.....THANK YOU AND VISIT AGAIN");
+                  }
+                      
+              
+            }                
+</script>
+</head>
+<body>
+    <p align="center"> SELECT PAYMENT METHOD</p>
+<table border="1" align="center" bgcolor="ivory" width="50%" style="border-radius: 20px;" >
+    <form>
+<tr>
+<td align="center" bgcolor="orange" height="50" style="border-radius: 10px;"><a href="#"name="box"> continue</a></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+    <td align="center" class="link" height="50" class="link:hover"><input type="radio" name="card" oninput="confirm('true')" >
+        <label for="card"> CREDIT/DEBIT/ATM/card</label>
+    
+    </td>
+</tr>
+<tr>
+    <td align="center"  height="50"class="link" class="link:hover"><input type="radio" name="card" >
+        <label for="UPI"> UPI IDS</label>
+    
+    </td>
+</tr>
+<tr>
+    <td align="center"  height="50"class="link" class="link:hover" ><input type="radio" name="card" >
+        <label for="bank">NETBANKING </label>
+    
+    </td>
+</tr>
+<tr>
+    <td align="center"  height="50"class="link" class="link:hover" ><input type="radio" name="card" >
+        <label for="cod">CASH ON DELIVERY </label>
+    
+    </td>
+</tr>
+    </form>
+</table>
+<center>
+    <table border="0">
+        <tr align="center">
+                <td align="center" bgcolor="green" class="link" class="link:hover" width="100"height="50">
+                    <a href="wtproject.html" name="order" onclick="confirm()">ORDER NOW </a>
+                </td>
+        </tr>
+    </center>
+</body>
+</html>
+
+
+   
